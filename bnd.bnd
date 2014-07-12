@@ -1,0 +1,10 @@
+Bundle-Version: 0.1.0
+-buildpath:  \
+	osgi.core;version=4.3,\
+	junit.osgi,\
+	osgi.cmpn;version=4.3,\
+	org.greenscape.persistence;version=latest
+Export-Package:  \
+	org.greenscape.weblet.journal.model,\
+	org.greenscape.weblet.journal
+GS-Model: org.greenscape.weblet.journal.model.JournalArticle
