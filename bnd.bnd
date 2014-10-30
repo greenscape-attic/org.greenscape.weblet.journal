@@ -7,4 +7,5 @@ Bundle-Version: 0.1.0
 Export-Package:  \
 	org.greenscape.weblet.journal.model,\
 	org.greenscape.weblet.journal
-GS-Model: org.greenscape.weblet.journal.model.JournalArticle
+Include-Resource: META-INF=resource
+GS-Resource: META-INF/resources.json

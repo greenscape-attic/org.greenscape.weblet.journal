@@ -1,9 +1,7 @@
 package org.greenscape.weblet.journal.model;
 
 import org.greenscape.persistence.PersistedModelBase;
-import org.greenscape.persistence.annotations.Model;
 
-@Model(name = JournalArticleModel.MODEL_NAME)
 public class JournalArticle extends PersistedModelBase implements JournalArticleModel {
 	private static final long serialVersionUID = 2909978029577850549L;
 
