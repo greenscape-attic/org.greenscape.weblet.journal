@@ -1,11 +1,13 @@
 Bundle-Version: 0.1.0
 -buildpath:  \
-	osgi.core;version=4.3,\
+	osgi.core;version=5.0,\
 	junit.osgi,\
-	osgi.cmpn;version=4.3,\
+	osgi.cmpn;version=5.0,\
 	org.greenscape.persistence;version=latest
 Export-Package:  \
 	org.greenscape.weblet.journal.model,\
 	org.greenscape.weblet.journal
 Include-Resource: META-INF=resource
 GS-Resource: META-INF/resources.json
+javac.source=1.8
+javac.target=1.8
